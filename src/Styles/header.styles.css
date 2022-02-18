@@ -1,0 +1,150 @@
+.header {
+    display: flex;
+    background-image: linear-gradient( to right, rgb(25, 94, 36), rgb(8, 8, 8));
+    /* position: fixed; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px; 
+    cursor: pointer;
+    
+}
+
+.nav-bar {
+    display: flex;
+    padding-top: 8px;
+    
+
+}
+
+.logo {
+    height: 90px;
+    width: 100px;
+}
+.nav-options  {
+    padding-left: 400px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white
+    
+  
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.options {
+    text-decoration: none;
+    color:  white
+    
+    
+    
+}
+.phone-menu {
+    /* width: 650px;
+    height: 55px; */
+    display: none;
+}
+
+
+.set {
+    display: none;
+}
+
+.bar1 :hover {
+    background-color: rgb(35, 133, 32);
+    color: white;
+    
+    border: 10px solid rgb(35, 133, 32);
+}
+.bar2 :hover {
+    background-color: rgb(35, 133, 32);
+    color: white;
+     border: 10px solid rgb(35, 133, 32);
+    
+}
+.bar3 :hover {
+    background-color: rgb(35, 133, 32);
+    color: white;
+    
+    border: 10px solid rgb(35, 133, 32)
+}
+.bar4 :hover {
+    background-color: rgb(35, 133, 32);
+    color: white;
+    
+    border: 10px solid rgb(35, 133, 32);
+}
+.bar5 :hover {
+    background-color: rgb(35, 133, 32);
+    color: white;
+    
+    border: 10px solid rgb(35, 133, 32);
+}
+.bar6 :hover {
+    background-color: rgb(35, 133, 32);
+    color: white;
+    
+    border: 10px solid rgb(35, 133, 32);
+}
+
+
+
+
+@media  (max-width : 900px) {
+    .header {
+        padding : 0px, 10px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 90px;
+
+    }
+
+    .nav-options {
+        display: flex;
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+        flex-direction: column;
+        list-style: none;
+        grid-gap:0px;
+
+    }
+    .nav-options.active {
+        background: #9899d1;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        align-content: center;
+        padding-left: 0px;
+        list-style: none;
+        
+    }
+
+    .phone-menu {
+        /* width: 650px;
+        height: 55px; */
+        display: flex
+    }
+
+    .option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5px;
+        padding: 30px 0px;
+        list-style: none;
+    }
+}

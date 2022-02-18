@@ -1,0 +1,45 @@
+.container {
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+ 
+    
+    
+    }
+ .protector {
+     display: flex;
+    
+       
+    }
+
+.cover {
+    
+   
+   
+   
+  
+}
+
+.go-left {
+   
+    height: 38rem;
+    width: 40%;
+}
+
+.go-right{
+    height: 38rem;
+    position: absolute;
+    right: 0;
+    
+    width: 40%;
+   
+}
+.text {
+    text-align: center;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    left: 40%;
+    position: absolute;
+    top: 40%;
+}

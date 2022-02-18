@@ -1,0 +1,26 @@
+.Dropdown {
+    position: absolute;
+    top: 4rem;
+   
+    box-shadow: 0 0 10px grey;
+    background-color: black;
+    border-radius: 0.2rem;
+    width: 12rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+
+
+}
+ li {
+    list-style: none;
+    padding:0.5rem  1rem;
+    border-radius: 0.2rem;
+    transition:background-color 200ms ease-in-out;
+    z-index: 3;
+    
+ 
+  
+}

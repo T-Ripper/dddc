@@ -1,0 +1,25 @@
+.Container {
+        outline: 1px  hidden black;
+        width: 60%;
+}
+
+.Address {
+  font-size: medium;
+  font-weight: 300;
+  width: 40%;
+  outline: solid black;
+  padding : 30px 20px -5px 10px;
+  margin: 50px 10px
+
+}
+
+.text {
+    font-weight: 300;
+    width:  40;
+    position: absolute;
+    /* left: 5%; */
+    /* padding: 30px 20px; */
+    
+    
+
+}

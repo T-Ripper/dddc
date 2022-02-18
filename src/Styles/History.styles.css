@@ -1,0 +1,103 @@
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+
+.image01 {
+   
+    width: 370px;
+    height: 290px;
+    padding: 10px;
+    margin-top: 150px;
+    position: relative;
+   
+    
+}
+.image02 {
+   
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    width: 370px;
+    height: 290px ;
+  
+    
+}
+.image03 {
+   display: flex;
+   justify-content: left;
+   align-content: left;
+   width: 370px;
+   height: 290px;
+    
+  
+    
+}
+.image04 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 300px;
+    height: ;
+}
+
+h1 {
+    font-size:xxx-large;
+}
+.text {
+    position: absolute;
+    left: 40%;
+    bottom: 290px;
+    width: 50%;
+}
+
+h2 {
+    font-size: xx-large;
+}
+.Bible {
+    font-weight: 100;
+    color: tomato;
+    cursor: pointer;
+    
+}
+.Bible :hover {
+    color: blue
+}
+
+@media  (max-width : 900px) {
+
+    .text {
+      
+        position: relative;
+        bottom : 50px ;
+        width: 100%;
+        top: 10px;
+        text-align: center;
+         left:20px;
+       
+        text-align: center;
+        
+
+        
+        
+      
+
+        ;
+       
+    }
+    .image {
+      
+        position: relative;
+        left: 170px;
+        bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+
+    }
+}
+   
+    

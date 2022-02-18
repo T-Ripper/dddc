@@ -1,0 +1,17 @@
+.right-side {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    display: flex;
+    justify-content: flex-end;
+    image-rendering:crisp-edges;
+    z-index: -1;
+   
+    
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+}
